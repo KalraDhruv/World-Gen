@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 import edu.princeton.cs.algs4.StdDraw;
+
 import utils.RandomUtils;
 
 /**
