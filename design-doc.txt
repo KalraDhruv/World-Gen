@@ -1,0 +1,31 @@
+**BinarySpacePartitioning: Creates a set of rooms based on binary search tree.{Rooms are stored in the bottom most layer of the tree)
+*Variables: 
+1. layout: An array of tiles for storing the tiles.
+2. width: The width of screen.
+3. height: The height of the screen.
+4. partitions: The number of partitions.
+5. root: The root of the binary search tree.
+**LeafPartitioner: A class for partitioning the leafs in two and returning it's children.
+1. firstChild: Stores the first Child.
+2. secondChild: Stores the second Child.
+3. randomizer: An object to keep track of pseudo-random values generated.
+**Leaf: A class which keeps track of nodes of a tree.
+1. leftChild: Stores the leftChild of the leaf.
+2. rightChild: Stores the rightChild of the leaf.
+3. room: If the room is present then contains a Room Object otherwise null.
+	{When a room is present then left and right child are null.}
+**Room: A class which extends a class rectangle.
+1. width: Stores the width of room.
+2. height: Stores the length of room.
+3. randomizer: Pseudo-random number generator used to find the dimesions.
+4. leastWidth: keeps the minimum width of the room. 
+5. leastHeight: keeps the minimum height of the room.
+**Rectangle: A rectangle
+1. width: Width.
+2. height: Height.
+**HallwaysStraight: The rooms get connected on the basis of depth level of the leafs.
+1. Leaf: Stores the leaf whose left and right childs are to be connected.
+**HallwaysSpindly: The rooms get connected with L shaped cooridors if hallway straight is not applicable.  
+**TileFiller: A class to fill the tiles based on the room coordinates takes a room object.
+
+
