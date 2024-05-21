@@ -14,6 +14,9 @@
 2. rightChild: Stores the rightChild of the leaf.
 3. room: If the room is present then contains a Room Object otherwise null.
 	{When a room is present then left and right child are null.}
+4. width: The width of leaf.
+5. height: The height of leaf.
+6. parent: Stores the parent for the leaf (In case of root it is null).
 **Room: A class which extends a class rectangle.
 1. width: Stores the width of room.
 2. height: Stores the length of room.

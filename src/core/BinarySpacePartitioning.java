@@ -27,6 +27,7 @@ public class BinarySpacePartitioning {
      */
     private void initializeLayout(long seed){
 
+
     }
 
     /**
@@ -38,5 +39,4 @@ public class BinarySpacePartitioning {
         Random randomizer = new Random(seed);
         return randomizer;
     }
-
 }
